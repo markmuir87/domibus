@@ -27,6 +27,9 @@ EXPOSE 5445
  # JMS Messaging througput
 EXPOSE 5455
 
+VOLUME /opt/domibus/pmodes
+VOLUME /opt/domibues/modules/eu/domibus/main
+
 RUN ["/bin/chmod", "750", "/opt/domibus/bin/init.sh"]
 
 ENTRYPOINT ["/opt/domibus/bin/init.sh"]

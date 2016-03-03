@@ -3,6 +3,10 @@
 # E-Delivery project
 A docker file to build an ebMS3/AS4 message service handler based on Domibus.
 
+Build this image with the following command:
+
+`docker build --rm=true -t mhvdboog/msh .`
+
 The repository contains one docker files for the domibus app and depends on the domibus app being available in the docker context.
 
 [Download the domibus distribution here](https://joinup.ec.europa.eu/nexus/content/repositories/releases/eu/europa/ec/cipa/cef-edelivery-distribution/3.2.0-alpha-1/cef-edelivery-distribution-3.2.0-alpha-1-as4-jboss.zip)
