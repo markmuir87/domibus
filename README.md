@@ -1,7 +1,7 @@
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 # E-Delivery project
-A docker file to build an self contained ebMS3/AS4 message service handler based on Domibus.
+A docker file to build an self contained ebMS3/AS4 message service handler based on Domibus 3.0.1.
 The image includes a mysql instance.
 
 Build this image with the following command:
