@@ -4,6 +4,8 @@
 A docker file to build an self contained ebMS3/AS4 message service handler based on Domibus.
 The image includes a mysql instance.
 
+The domibus distribution must be in the ./domibus directory. Create a softlink when building in a Unix environment.
+
 Build this image with the following command:
 
 `docker build --rm=true -t mhvdboog/domibus .`
