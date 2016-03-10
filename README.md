@@ -11,7 +11,7 @@ Build this image with the following command:
 
 The repository contains one docker file for the domibus app and depends on the domibus app being available in the docker context.
 
-[Download the domibus distribution here](https://joinup.ec.europa.eu/nexus/content/repositories/releases/eu/europa/ec/cipa/cef-edelivery-distribution/3.2.0-alpha-1/cef-edelivery-distribution-3.2.0-alpha-1-as4-jboss.zip)
+[Download the domibus distribution here](https://joinup.ec.europa.eu/nexus/service/local/repositories/releases/content/eu/domibus/domibus-tomcat-full/3.1-beta/domibus-tomcat-full-3.1-beta.zip)
 
 ## Start domibus
 `docker run --name domibus -p 8080:8080 -p 9990:9990 -p 5445:5445 -p 5455:5455 -d mhvdboog/domibus`
